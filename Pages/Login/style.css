@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.005714285714285672) 20%,
+      rgba(27, 27, 27) 100%
+    ),
+    url("./assets/globe-3984876_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  width: 100vw;
+  padding: 100px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.forms-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  background-color: rgba(27, 27, 27, 0.725);
+  padding: 50px 30px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 9px 9px 35px 2px rgba(0, 0, 0, 0.84);
+  box-shadow: 9px 9px 35px 2px rgba(0, 0, 0, 0.84);
+}
+
+.forms-content > img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.forms-content > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.forms-content > form > input {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  line-height: 35px;
+  padding-left: 8px;
+  color: white;
+}
+.forms-content > form > button {
+  background-color: #fcb821;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.005rem;
+}
+
+.forms-content > footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.forms-content > footer > a {
+  text-decoration: none;
+  color: white;
+}
