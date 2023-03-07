@@ -38,16 +38,16 @@ section {
   padding: 250px;
 }
 .car-img-1{
-  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/iStock-517620355.jpg");
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/1.png");
 }
 .car-img-2{
-  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/iStock-1067880794.png");
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/2.png");
 }
 .car-img-3{
-  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/iStock-1093321976.jpg");
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/3.png");
 }
 .car-img-4{
-  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/shutterstock_754571701.jpg");
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/4.png");
 }
 .car-text{
   color: white;
