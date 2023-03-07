@@ -5,22 +5,55 @@
 }
 
 section {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       90deg,
       rgba(255, 255, 255, 0.005714285714285672) 20%,
       rgba(27, 27, 27) 100%
     ),
     url("./assets/globe-3984876_1920.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
+  background-color: black;
+  
   height: 100vh;
   width: 100vw;
-  padding: 100px;
+  padding-right: 100px;
 
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.car-img{
+  height: 100vh;
+  width: 100vw;
+  margin-right: 20%;
+  background: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 250px;
+}
+.car-img-1{
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/iStock-517620355.jpg");
+}
+.car-img-2{
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/iStock-1067880794.png");
+}
+.car-img-3{
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/iStock-1093321976.jpg");
+}
+.car-img-4{
+  background-image: linear-gradient( 90deg, rgba(255,255,255,0.005714285714285672) 30%, rgba(0,0,0,1) 100%), url("./assets/shutterstock_754571701.jpg");
+}
+.car-text{
+  color: white;
+  font-size: 52px;
+  font-weight: bold;
+  text-shadow: 6px 2px 11px rgba(0,0,0,0.73);
 }
 
 .forms-content {
@@ -34,6 +67,9 @@ section {
 
   -webkit-box-shadow: 9px 9px 35px 2px rgba(0, 0, 0, 0.84);
   box-shadow: 9px 9px 35px 2px rgba(0, 0, 0, 0.84);
+
+  position: absolute;
+  z-index: 2;
 }
 
 .forms-content > img {
